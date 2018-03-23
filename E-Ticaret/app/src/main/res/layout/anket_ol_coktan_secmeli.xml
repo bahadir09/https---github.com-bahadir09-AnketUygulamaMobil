@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextSoruTipi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soru giriniz.."
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:inputType="textMultiLine"
+        />
+
+
+    <CheckBox
+        android:id="@+id/checkCokluBir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSoruTipi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/editCheckBir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSoruTipi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/checkCokluBir"
+        android:layout_toRightOf="@+id/checkCokluBir" />
+
+
+    <CheckBox
+        android:id="@+id/checkCokluIki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCheckBir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/editCheckIkı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCheckBir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/checkCokluIki"
+        android:layout_toRightOf="@+id/checkCokluIki"
+        android:layout_marginRight="10dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkCokluUc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCheckIkı"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/editCheckUc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCheckIkı"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/checkCokluUc"
+        android:layout_toRightOf="@+id/checkCokluUc"
+        android:layout_marginRight="10dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkCokluDort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCheckUc"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/editCheckDort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCheckUc"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/checkCokluDort"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/checkCokluDort" />
+
+</RelativeLayout>

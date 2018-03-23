@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Anket</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="hakkimizda">Hakkımızda</string>
+    <string name="oturumu_kapat">Oturumu Kapat</string>
+
+
+    <string-array name="Soru_Tipi">
+        <item>Çoktan Seçmeli</item>
+        <item>Onay Kutuları</item>
+        <item>Yorum Kutusu</item>
+        <item>Metin</item>
+    </string-array>
+</resources>
